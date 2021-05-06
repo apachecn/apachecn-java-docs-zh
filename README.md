@@ -10,7 +10,7 @@
 
 ## 目录
 
-+   [Spring Boot 1.5.2 中文文档](doc/spring-boot-doc-zh)
++   [Spring Boot 1.5.2 中文文档](doc/spring-boot-doc-zh/SUMMARY.md)
 
 ## 贡献指南
 
