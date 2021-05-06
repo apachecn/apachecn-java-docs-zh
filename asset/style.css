@@ -198,6 +198,18 @@ body {
 	text-shadow: none;
 }
 
+.page_about a {
+	color: DarkGreen;
+}
+
+.page_about a:visited {
+	color: DarkOliveGreen;
+}
+
+.page_about a:active {
+	color: GoldenRod;
+}
+
 /* 首页底部设置 */
 #ib_footer{
   margin: 0 auto;
