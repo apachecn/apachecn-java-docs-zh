@@ -95,12 +95,101 @@ body {
 .page_about{
   font-size: 16px;
   margin: 0 auto;
-  text-align: center;
   width: 80%;
   height: 100%;
   padding-top: 40px;
   padding-bottom: 10px;
   /* background: #0000ff; */
+}
+
+.page_about ol, .page_about ul {
+	padding-left: 1.5rem
+}
+
+.page_about img {
+	width: 100%
+}
+
+.page_about blockquote {
+	border-left: 4px solid;
+    color: #666;
+    margin: 2em 0;
+    padding-left: 20px;
+}
+
+.page_about pre {
+	background: #2b2b2b;
+	
+	padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+	
+	color: #a9b7c6 !important;
+    background-color: #2b2b2b !important;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+	
+	padding-left: 0 !important;
+    padding-right: 0px !important;
+    box-shadow: 2px 1px 20px 2px #aaa;
+	
+	
+	-moz-osx-font-smoothing: initial;
+    -webkit-font-smoothing: initial;
+    position: relative;
+    word-wrap: normal;
+	
+	border-radius: 8px;
+}
+
+.page_about pre > code {
+	font-family: Consolas, Roboto Mono, Monaco, courier, monospace !important;
+    font-size: .9rem !important;
+	
+	-moz-osx-font-smoothing: initial;
+    -webkit-font-smoothing: initial;
+    border-radius: 2px;
+    display: block;
+    line-height: inherit;
+    margin: 0 2px;
+    max-width: inherit;
+    overflow: inherit;
+    padding: 2.2em 5px;
+    white-space: inherit;
+	
+	color: #a9b7c6 !important;
+    background-color: #2b2b2b !important;
+    direction: ltr;
+    text-align: left;
+    word-spacing: normal;
+    word-break: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+	
+	text-shadow: none;
+}
+
+@media (min-width: 600px) {
+	.page_about pre > code {
+		padding-left: 20px !important;
+	}
 }
 
 /* 首页底部设置 */
