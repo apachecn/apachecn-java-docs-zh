@@ -103,7 +103,9 @@ body {
 }
 
 .page_about ol, .page_about ul {
-	padding-left: 1.5rem
+	padding-left: 1.5rem;
+	line-height: 1.6rem;
+    word-spacing: 0.05rem;
 }
 
 .page_about img {
@@ -181,6 +183,18 @@ body {
     -ms-hyphens: none;
     hyphens: none;
 	
+	text-shadow: none;
+}
+
+.page_about :not(pre) > code {
+	background-color: rgba(248, 248, 248, 0.75);
+    border-radius: 2px;
+    /*color: #e96900;*/
+    font-family: Consolas, Roboto Mono, Monaco, courier, monospace !important;
+    font-size: 0.8rem;
+    margin: 0 2px;
+    padding: 3px 5px;
+    white-space: pre-wrap;
 	text-shadow: none;
 }
 
