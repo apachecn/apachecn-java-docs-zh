@@ -120,7 +120,7 @@ body {
 .page_about pre {
 	background: #2b2b2b;
 	
-	padding: 1em;
+	padding: 0 !important;
     margin: .5em 0;
     overflow: auto;
 	
@@ -141,8 +141,6 @@ body {
     -ms-hyphens: none;
     hyphens: none;
 	
-	padding-left: 0 !important;
-    padding-right: 0px !important;
     box-shadow: 2px 1px 20px 2px #aaa;
 	
 	
@@ -166,7 +164,7 @@ body {
     margin: 0 2px;
     max-width: inherit;
     overflow: inherit;
-    padding: 2.2em 5px;
+    padding: 16px;
     white-space: inherit;
 	
 	color: #a9b7c6 !important;
@@ -184,12 +182,6 @@ body {
     hyphens: none;
 	
 	text-shadow: none;
-}
-
-@media (min-width: 600px) {
-	.page_about pre > code {
-		padding-left: 20px !important;
-	}
 }
 
 /* 首页底部设置 */
