@@ -10,6 +10,8 @@
 
 ## 目录
 
++   [Spring Boot 1.5.2 中文文档](doc/spring-boot-doc-zh)
+
 ## 贡献指南
 
 本项目需要校对，欢迎大家提交 Pull Request。
